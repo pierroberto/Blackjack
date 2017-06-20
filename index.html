@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+	<title>Play the game!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+</head>
+
+<body>
+	<div class ="container">
+		<div class="left-menu">
+			<div id="logo">
+				<img src="img/bj.png" height="100%" width="100%" border="3px solid" />
+			</div>
+			<div class="button" id="new"><p>New Game</p></div>
+			<div class="button" id="deal"><span>Deal</span></div>
+			<div class="button" id="hit"><span>Hit</span></div>
+			<div class="button" id="stand"><span>Stand</span></div>	
+			<div class="button" id="split"><span>Split</span></div>
+		</div>
+	</div>
+
+
+	<div id="numberCards">Cards left in the deck: 52</div>	
+
+
+	<div class="content">
+		<h1>Dealer</h1>
+		<div class="dealer" id="dealer"></div>
+		<div class="dealer" id="unknownCard"></div>
+		<div class="score" id="scoreDealer">Score</div>
+		<h1>Player</h1>
+		<div class="player1" id="player1"></div>
+		<div class="player1" id="split1"></div>
+		<div class="score" id="scorePlayerSplit1">> Score</div>
+		<div class="player1" id="split2"></div>
+		<div class="score" id="scorePlayerSplit2">Score</div>
+
+		<div class="score" id="scorePlayer">Score</div>	
+
+	</div>
+
+
+ 
+
+</body>
+
+</html>

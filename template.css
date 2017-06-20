@@ -1,0 +1,114 @@
+
+body {
+	background-image: url("img/wallpaper.jpg");
+	font-family: monospace;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	padding: 0px 1px;
+	border-radius: 10px;
+	width: 80px;
+	height: 60px;
+	line-height: 60px;
+	background-color: gray;
+	border: 1px solid;
+	text-align: center;
+	font-size: 2em;	
+}
+.container {
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+	height: 100%;
+}
+.content {
+	display: inline-block;
+	width: 75%;
+	text-align: center;
+}
+.dealer {
+	display:block;
+}
+.dealer > img {
+	width: 12%;	
+}
+.left-menu {
+	display: block;
+}
+#logo {	
+	width: 100%;
+}
+#new {
+	width: 200px;
+	line-height:0px;
+	vertical-align: top;
+}
+#numberCards {
+	position:fixed;
+	width: 20%;
+	border: 2px solid black;
+	padding: 10px;
+	left:0px;
+	bottom: 0px;
+	background-color: green;
+}
+.player1 {
+	display:block;
+	padding-top: 0;
+}
+
+.player1 >  img {
+	width: 15%;
+
+}
+
+.score {
+	display:inline-block;
+	margin-bottom: 20px; 
+	padding: 5px;
+	background-color: #3C3C3C;	
+	color: #fff;
+	border: 1px solid #000;
+}
+
+#split1, #split2 {
+	display: block;
+	margin: 10px;
+	padding-left: 20px;
+
+	
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.button {
+		width: 40px;
+		height: 30px;
+		font-size: 1em;
+		line-height: 30px;
+
+	}
+
+	.container {
+		text-align: center;
+		display: block;
+		width: 100%;
+		
+	}
+	.content {
+		margin: auto;
+		display: block;
+
+	}
+	#logo {
+		margin: auto;
+		width: 50%;
+	}
+
+	#new {
+		width: 100px;
+	}
+}
